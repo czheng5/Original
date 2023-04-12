@@ -1,0 +1,33 @@
+{
+    "code-runner.executorMap": {
+        "python":"F:\\Python311\\python.exe",
+    },
+    "code-runner.runInTerminal": true,
+    "window.zoomLevel": -0.5,
+    "editor.fontSize": 17,
+    "editor.tabSize":4,
+    "editor.wordWrap":"on",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "GitBash":{
+            "path":"F:\\Git\\bin\\bash.exe"
+        },  
+    },
+    "terminal.integrated.defaultProfile.windows": "GitBash",
+    "workbench.colorTheme": "Blakai Theme",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
